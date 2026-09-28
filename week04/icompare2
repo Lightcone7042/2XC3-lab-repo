@@ -1,0 +1,8 @@
+#!/bin/bash
+f1=$(tr '[:upper:]' '[:lower:]' < "$1")
+f2=$(tr '[:upper:]' '[:lower:]' < "$2")
+if [[ "$f1" == "$f2" ]]; then
+    echo "Identical content"
+else
+    echo "Different content"
+fi

@@ -1,0 +1,2 @@
+Week 1 Reflection - C Programming & Compilation:
+C requires explicit memory management and modular compilation using build systems like Make. Standard IO streams (stdin, stdout, stderr) mirror standard Unix shell redirection concepts.

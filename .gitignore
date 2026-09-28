@@ -1,0 +1,9 @@
+*.o
+*.out
+*.exe
+*.a
+*.so
+a.out
+split
+wstat
+.DS_Store

@@ -1,0 +1,4 @@
+Regex Practice Patterns:
+1. Emails: ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+2. Phone: ^\([0-9]{3}\) [0-9]{3}-[0-9]{4}$
+3. Words starting with vowels: ^[aeiouAEIOU][a-zA-Z]*

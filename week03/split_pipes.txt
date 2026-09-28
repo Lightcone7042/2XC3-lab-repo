@@ -1,0 +1,3 @@
+Testing split using pipes:
+cat input.txt | ./split
+./split < input.txt > output.txt

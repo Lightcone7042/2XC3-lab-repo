@@ -1,0 +1,8 @@
+#!/bin/bash
+DELIM=${1:-" "}
+while IFS= read -r line || [[ -n "$line" ]]; do
+    IFS="$DELIM" read -ra ADDR <<< "$line"
+    for val in "${ADDR[@]}"; do
+        echo "$val"
+    done
+done

@@ -1,0 +1,2 @@
+Week 1 Reflection - Text Processing:
+Text-based workflows in Unix allow seamless composition of lightweight tools via pipes and redirects. Understanding stream redirection (stdout, stderr) is fundamental for task automation.
